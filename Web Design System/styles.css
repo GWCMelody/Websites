@@ -1,0 +1,116 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 10px auto;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+.group {
+    border: 2px grey solid;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 500px;
+    padding: 50px 100px;
+    min-width: 900px;
+}
+
+.group div {
+    display: inline-block;
+    padding: 20px 40px;
+}
+
+.colors div{
+    border-radius: 10px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lime-green {
+    background-color: #DAF7A6;
+}
+
+.grey {
+    background-color: #5E695B;
+    color: white;
+}
+
+.pink {
+    background-color: #EEB8DA;
+}
+
+.blue {
+    background-color: #D1E9EB;
+}
+
+.fonts div,
+.textStyles div {
+    line-height: 2.4;
+}
+
+.fonts p,
+.textStyles p {
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.fira-sans {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.lora {
+    font-family: "Lora", serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-weight: italic;
+}
+
+.textStyles ul {
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.h1 {
+    font-weight: bold;
+    font-size: 26px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.h2 {
+    font-weight: normal;
+    font-size: 18px;
+    font-family: "Lora", serif;
+}
+
+.p {
+    font-weight: normal;
+    font-size: 14px;
+    font-family: "Josefin Sans", sans-serif;
+}
